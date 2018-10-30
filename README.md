@@ -1,36 +1,49 @@
-Info
-====
-
-* 来源：Internet
-* Github copy:<https://github.com/needhourger/Virus>
+# **Something Fun**
 
 
-**警告，请用于合法目的**
------------------------
+>   * Collect and code by needhourger
+> 
+>   * Github copy:<https://github.com/needhourger/SthFun>
 
----------
----------
-USBspread
-=========
 
-通过usb设备传播的一种实现方式源代码
+>  ## **Warning: These files just for study!!!**
+> **所有文件仅供学习交流使用**
 
-不保证代码的可行性
+
+--------------
+
+>## USBspread
+
+
+* 使文件通过usb设备传播的一种实现方式源代码
+
 
 
 
 -----
 -----
-payload
-=======
+>## payload
 
-对msf框架下的payload生成的16进制编码的重写。增强其免杀性能同时方便扩展功能。
+
+* 对msf框架下的payload生成的16进制编码的重写。增强其免杀性能同时方便扩展功能。
 
 
 ---
 ---
-miner_cc_Trojan.rar
-===================
-某校网站防火墙报警过后通过分析url从渗透者服务器上获得的木马样本。
+>## miner_cc_Trojan.rar
 
-在linux服务器环境下运行，具有利用服务器挖矿及利用服务器发动cc攻击。
+* 某校网站防火墙报警过后通过分析url从渗透者服务器上获得的木马样本。
+
+* 在linux服务器环境下运行，具有利用服务器挖矿及利用服务器发动cc攻击。
+
+
+---
+---
+>## RandomCursor.py
+
+* py脚本鬼畜鼠标，建议使用pyinstaller打包成exe文件使用效果更佳
+
+* 下次更新添加左右键点击以及长按效果
+
+    跟推荐使用c语言编写，py打包生成的exe文件体积臃肿
+
