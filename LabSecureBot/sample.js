@@ -1,0 +1,7 @@
+javascript: var a_tm = 0; setInterval(function () { a_tm % 60 == 0 ? $.post("/exam_xuexi_online.php", { cmd: "xuexi_online" }, function (n) { n = JSON.parse(n), $(".block-login .explanation li:first").html("<a class='changePassword loginCommonBtn'>最近一次发送请求:" + n.shichang + "</a>"), -1 != n.shichang.indexOf("时") && alert("挂完了"), console.log(n.shichang) }) : $(".block-login .explanation li:eq(1)").html("<a class='changePassword loginCommonBtn'>挂题库时长:" + a_tm + "</a>"), a_tm++ }, 1e3);
+__   _   _   _   _   _____   _____   _           ___   _____        _____   _____   _____   _   _   _____    _____        _____   _____   _____  
+|  \ | | | | | | | | /  ___/ |_   _| | |         /   | |  _  \      /  ___/ | ____| /  ___| | | | | |  _  \  | ____|      |  _  \ /  _  \ |_   _| 
+|   \| | | | | | | | | |___    | |   | |        / /| | | |_| |      | |___  | |__   | |     | | | | | |_| |  | |__        | |_| | | | | |   | |   
+| |\   | | | | | | | \___  \   | |   | |       / / | | |  _  {      \___  \ |  __|  | |     | | | | |  _  /  |  __|       |  _  { | | | |   | |   
+| | \  | | |_| | | |  ___| |   | |   | |___   / /  | | | |_| |       ___| | | |___  | |___  | |_| | | | \ \  | |___       | |_| | | |_| |   | |   
+|_|  \_| \_____/ |_| /_____/   |_|   |_____| /_/   |_| |_____/      /_____/ |_____| \_____| \_____/ |_|  \_\ |_____|      |_____/ \_____/   |_|   
